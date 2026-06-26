@@ -30,7 +30,7 @@ Két dolgot csinálsz egymás után:
 3. **Visszajátszás.** Amikor minden rész megvan, foglald össze 5–8 mondatban, milyen embert rajzoltatok ki. Kérdezd meg: *„Stimmel? Min igazítsunk, mielőtt véglegesítem?"*
 4. **Generálás.** A jóváhagyás után töltsd ki a teljes `docs/SABLON.md` szerkezetet a válaszokból. Ahol a használó nem adott infót, jelöld `[KIEGÉSZÍTENDŐ]`-vel — ne találj ki tényt, de tegyél óvatos, jelölt javaslatot, ha hasznos.
 5. **Mentés.** Írd ki a kész avatart Markdown fájlba: `avatarok/<avatar-neve>.md` (pl. `avatarok/tulterhelt-katalin.md`). Ha a mappa nem létezik, hozd létre.
-6. **Felajánlás.** Kérdezd meg: építsünk-e egy következő avatart, vagy csináljak-e az elkészültből egy **reviewer-subagentet** (lásd a `.claude/agents/` példákat), aki a kész marketinganyagokat ennek az avatarnak a szemszögéből véleményezi.
+6. **Felajánlás.** Kérdezd meg, építsünk-e egy következő avatart (egy másik vevői szegmensre) — mindig egyszerre egyet.
 
 ## A generált dokumentum minőségi mércéje
 

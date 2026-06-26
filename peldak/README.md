@@ -14,7 +14,7 @@ nálad más lesz a tartalom, de a **mélység és a 9-részes felépítés** ugy
 ## Példa-avatarok (a rendszer kimenete)
 
 5 teljes, kitöltött avatar — különböző iparágakból. Mindegyik egy élő embert rajzol ki, valódi vevői
-szó szerinti idézetekkel. Mindegyikhez tartozik egy [reviewer-subagent](../.claude/agents/) is.
+szó szerinti idézetekkel — pontosan ezt a kimenetet adja a rendszer.
 
 - [`avatarok/tulterhelt-katalin.md`](avatarok/tulterhelt-katalin.md) — túlterhelt szolgáltató (könyvelőiroda)
 - [`avatarok/roi-hajtos-gabor.md`](avatarok/roi-hajtos-gabor.md) — ROI-hajtós webshop-tulaj

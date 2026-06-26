@@ -22,7 +22,7 @@ a 9-részes avatart építi fel — a különbség csak a kényelem.
 1. Klónozd a repót, és nyisd meg Claude Code-ban.
 2. Hívd az **`avatar-epito`** agentet (pl.: „építsünk egy vásárlói avatart").
 3. Végigkérdez, majd a kész avatart **fájlba menti** az `avatarok/` mappába.
-4. Bónusz: kérd meg, hogy az elkészült avatarból csináljon egy **reviewer-subagentet** is.
+4. Több szegmenshez futtasd újra — egyszerre egy avatart építs.
 
 ---
 
@@ -31,20 +31,6 @@ a 9-részes avatart építi fel — a különbség csak a kényelem.
 1. Nyisd meg a [`docs/SABLON.md`](SABLON.md)-et.
 2. Menj végig a [`docs/INTERJU.md`](INTERJU.md) kérdésein, és írd be a válaszokat a sablon mezőibe.
 3. A vezérlő kérdések segítenek, ha elakadsz.
-
----
-
-## A marketinged tesztelése a kész avatarokkal (Claude Code)
-
-A `.claude/agents/` mappában 5 **reviewer-avatar** van. Mindegyik egy-egy vevőtípus fejével gondolkodik.
-
-1. Hívd a megfelelő reviewert (pl. `avatar-roi-hajtos-ecom`).
-2. Adj neki egy marketinganyagot — beillesztett szöveget, vagy egy kép/landing elérési utat (Read-eli).
-3. Visszaad **7 pontot**: scroll-stop, relevancia, érthetőség, első kifogás, hitelesség, cselekvési szándék, „egy mondat, ami megfogna".
-4. Futtasd több avataron → összehasonlítod, **kinél üt** az anyag és **kinél nem**.
-
-> Tipp: készíts a saját avatarjaidból is reviewer-agenteket (az építő agent ezt felajánlja), és a saját
-> célközönségeden teszteld a kreatívjaidat, mielőtt pénzt költesz rájuk.
 
 ---
 

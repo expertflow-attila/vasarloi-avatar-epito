@@ -16,7 +16,7 @@ csak akkor működik, ha egy konkrét emberhez beszélsz, nem egy kategóriához
 | 🧩 **[Sablon](docs/SABLON.md)** | A 9-részes (RÉSZ I–IX), extrém részletes avatar-váz. Minden mezőnél magyarázat + vezérlő kérdés. |
 | 🎤 **[Interjú](docs/INTERJU.md)** | A kérdéssor, amivel az AI (vagy te magad) feltérképezed a vevődet — egy kérdés egyszerre. |
 | 🤖 **[Építő prompt](prompts/avatar-epito-prompt.md)** | Copy-paste prompt bármelyik AI-ba (ChatGPT, Claude, Gemini): elindítja az interjút és megírja az avatart. |
-| 🧠 **[Claude Code agentek](.claude/agents/)** | Az építő agent + 5 kész **példa-avatar reviewer**, akik a marketinganyagaidat a vevő szemszögéből véleményezik. |
+| 🧠 **[Claude Code agent](.claude/agents/avatar-epito.md)** | Az `avatar-epito` agent: végigkérdez, majd fájlba menti a kész avatart. |
 | 📚 **[Példák](peldak/)** | 3 forrásminta + 5 teljes példa-avatar, hogy lásd, milyen mélységet ad a rendszer. |
 
 ---
@@ -32,11 +32,11 @@ Ha elakadsz, segít. A végén legenerálja a teljes avatar-dokumentumot.
 
 ### 2. Mentsd el a kész avatart
 A kapott dokumentumot tedd el (Google Docs / Word / Markdown). Ez lesz minden hirdetésed, landingoldalad
-és emailed alapja. Több szegmensed van? Futtasd újra — **egyszerre egy avatart** építs.
+és emailed alapja.
 
-### 3. Teszteld vele a marketinged (opcionális, Claude Code)
-A `.claude/agents/` mappában 5 kész **reviewer-avatar** van. Adj nekik egy hirdetést vagy landinget, és
-**a vevő fejével** mondják meg: megállna-e rá, érti-e, mi a kifogása, kattintana-e. Lásd a [példákat](peldak/avatarok/).
+### 3. Építsd meg a többi szegmensed
+Több vevőtípusod van? Futtasd újra — **egyszerre egy avatart** építs, hogy mindegyik egy konkrét ember maradjon.
+A [példák](peldak/avatarok/) mutatják, milyen mélységet érdemes megcélozni.
 
 ---
 

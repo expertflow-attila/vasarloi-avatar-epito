@@ -87,8 +87,7 @@ A kész avatar csak akkor jó, ha tudjuk, mihez készül. Először ezt tisztáz
 Amikor minden rész megvan, az AI:
 1. **Visszajátssza** röviden, mit értett meg — hogy javíthass, mielőtt generál.
 2. **Legenerálja** a teljes avatar-dokumentumot a [`SABLON.md`](SABLON.md) szerkezetében, kitöltve.
-3. **Felajánlja**, hogy építtek egy következőt — vagy hogy az elkészült avatarból csinál egy
-   [reviewer-subagentet](../.claude/agents/), aki a kész marketinganyagaidat a saját szemszögéből véleményezi.
+3. **Felajánlja**, hogy építtek egy következő avatart — egy másik vevői szegmensre.
 
 > **Tipp a legjobb eredményért:** az interjú alatt ne „helyes" válaszokat adj, hanem őszintéket.
 > Ha valamit nem tudsz, az is érték — onnan tudod, hol kell még megismerned a vevődet.
